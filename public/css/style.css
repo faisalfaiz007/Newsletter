@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.photo{
+  display: block;
+  margin: auto;
+ object-fit: cover;
+ border-radius: 60%;
+}
+.apna{
+  text-align: center;
+}
+.App{
+  text-align: center;
+  
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.App:hover{
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgb(46, 83, 151);
+  color: white;
+  transform: translate(0 -10px);
+}
